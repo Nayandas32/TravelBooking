@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:orientation="vertical">
+
+            <WebView
+                android:layout_width="420dp"
+                android:layout_height="159dp"
+                android:id="@+id/WBS"
+
+                ></WebView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="29dp"
+            android:text="Saint Martin"
+            android:textColor="#4974D0"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/saint1"
+                        android:layout_marginLeft="2dp"
+                        />
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/saint2"
+                        android:layout_marginLeft="4dp"
+                        />
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/saint3"
+                        android:layout_marginLeft="4dp"
+                        />
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/saint4"
+                        android:layout_marginLeft="4dp"
+                        />
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/saint5"
+                        android:layout_marginLeft="4dp"
+                        />
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/saint"/>
+
+
+                <Button
+                    android:id="@+id/regs"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Book your Seat"
+                    android:background="#ffff"
+                    android:textColor="#020202"
+                    android:textSize="18dp"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.nayan.travelbooking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".selectionpage" />
+        <activity android:name=".sajek" />
+        <activity android:name=".saint" />
+        <activity android:name=".tanguar" />
+        <activity android:name=".moinotghat" />
+        <activity android:name=".shundarban" />
+        <activity android:name=".booking" />
+        <activity android:name=".Reg" />
+        <activity android:name=".debotakhum" />
+        <activity android:name=".Splash" />
+        <activity android:name=".About" />
+    </application>
+
+</manifest>
